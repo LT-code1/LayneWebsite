@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Layne Website</p>
         <p>Testing AWS deployments</p>
+        {/* <text>GOTO Site</text> */}
         <a
           className="App-link"
           href="https://laynethompson.dev"
@@ -16,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           GOTO Site
+          <div>LayneThompson.dev</div>
         </a>
       </header>
     </div>
