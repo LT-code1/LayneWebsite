@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GOTO Site TEST FOUR
+          GOTO Site
           <div>LayneThompson.dev</div>
         </a>
       </header>
