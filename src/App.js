@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Layne Website</p>
+        <p>Testing AWS deployments</p>
         <a
           className="App-link"
           href="https://laynethompson.dev"
