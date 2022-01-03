@@ -5,11 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img
-          src={process.env.PUBLIC_URL + "/images/VaderLogo.jpeg"}
-          className="App-logo"
-          alt="logo"
-        />
+        <img src={"/images/VaderLogo.jpeg"} className="App-logo" alt="logo" />
         <p>Layne Website</p>
         <p>Testing AWS deployments</p>
         {/* <text>GOTO Site</text> */}
