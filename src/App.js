@@ -1,11 +1,11 @@
-import logo from "./VaderLogo.jpeg";
+import logo from "./VaderLogo.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={"/images/VaderLogo.jpeg"} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>Layne Website</p>
         <p>Testing AWS deployments</p>
         {/* <text>GOTO Site</text> */}
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GOTO Site TEST TWO
+          GOTO Site TEST FOUR
           <div>LayneThompson.dev</div>
         </a>
       </header>
