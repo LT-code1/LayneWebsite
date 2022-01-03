@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img
-          src={require("./VaderLogo.jpeg")}
+          src={process.env.PUBLIC_URL + "/images/VaderLogo.jpeg"}
           className="App-logo"
           alt="logo"
         />
@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GOTO Site TEST ONE
+          GOTO Site TEST TWO
           <div>LayneThompson.dev</div>
         </a>
       </header>
