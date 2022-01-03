@@ -19,6 +19,8 @@ function App() {
           GOTO Site
           <div>LayneThompson.dev</div>
         </a>
+        <br></br>
+        <text>AWS Amplify Example</text>
       </header>
     </div>
   );
