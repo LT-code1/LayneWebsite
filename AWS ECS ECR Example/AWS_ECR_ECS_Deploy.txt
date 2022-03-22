@@ -1,0 +1,17 @@
+I used react to make a simple Web Front End and made a Docker image that I placed into ECR.
+Then I created a ECS cluster, with a task definition using Fargate to point to the Docker container.
+With EC2 I made an application load balancer with security groups and target group for the listener, which
+  will point to all the dynamically created tasks in the ECS cluster.
+Then created a new service in the ECS cluster which connected the load balancer and started the tasks.
+With Route 53 I connected Record names , types, and aliases so it would route correctly to my site.
+I then used Certificate manager to get a SSL certificate, and palced the CNAME and CNAME value into Route 53.
+And then updated the EC2 load balancer for HTTP:80 to redirect to HTTPS:443, and HTTPS:443 to forward to the target group 
+  of created tasks private IPs and added the SSL certificate.
+Finally I added the custom name servers into google domains DNS from Route 53.
+
+And TADA my website is UP!
+
+A quite a bit more challenging than the amplify and S3 deploy, but definitely great to know.
+
+Nothing like using AWS, you use one service that leads to using 5 more. But the magic is nice,
+esp second time through the certificate manager auto filled in the Route 53 CNAMES.
